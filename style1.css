@@ -1,0 +1,268 @@
+*{
+    box-sizing: border-box;
+}
+
+.row:before,
+.row:after {
+    display: table;
+    content: "";
+    clear: both;
+}
+
+.row {
+    display: block;
+    width: 100%;
+}
+
+[class*="col-"] { 
+    width: 100%;
+    padding: 0;
+}
+
+
+.navbar ul
+{
+    list-style-type: none;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar ul a
+{
+    padding: 10 0 0 0;
+    color: white;
+    font-size: 15x;
+    font-weight: bold;
+    font-family: Verdana, Geneva, sans-serif;
+    display: block;
+    text-decoration: none;
+    background-color: #242424;
+    height: 40px;
+}
+
+.navbar ul li
+{
+    margin: auto;
+    width:60%;
+    text-align: center;
+}
+
+.navbar ul a:hover
+{
+    font-size: 18px;
+    font-family: Verdana, Geneva, sans-serif;
+    background-color: #dfbaab;
+    color: #242424;
+    font-weight: bold;
+}
+
+body
+{
+    background-image: url("background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, sans-serif;
+}
+
+.title 
+{
+    color: #242424;
+    text-align: center;
+    font-family: Verdana, Geneva, sans-serif;
+}
+
+.title h1
+{
+    font-size: 70px;
+}
+
+div 
+{
+    margin: 0;
+    padding: 0;
+}
+
+.menu 
+{
+    background-color: #242424;
+    margin: 0;
+    padding: 0;
+    height: 120px;
+}
+
+.menu h3 
+{
+    padding: 0;
+    color: #dfbaab;
+    font-family: Verdana, Geneva, sans-serif;
+    text-align: left;
+    margin: 5 0 0 10;
+}
+
+.menu input 
+{
+    padding-left: 5;
+    margin-top: 10;
+    background-color: #dfbaab;
+    border: none;
+    height: 25%;
+    width: 80%;
+    margin-left: 10px;
+}
+
+.form 
+{
+    text-align: center;
+    margin: 20% auto; 
+    background-color: #dfbaab;
+    color: #242424;
+}
+
+.form label 
+{
+    margin: 10 0;
+}
+
+.form input 
+{
+    margin: 10 0;
+}
+
+.menu ul
+{
+    list-style-type: none;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+}
+
+.menu ul a
+{
+    padding-top: 5;
+    color: #242424;
+    font-size: 15x;
+    font-weight: bold;
+    font-family: Verdana, Geneva, sans-serif;
+    display: block;
+    text-decoration: none;
+    background-color: #dfbaab;
+    height: 30px;
+}
+
+.menu ul li
+{
+    width:60%;
+    text-align: center;
+}
+
+
+@media only screen and (min-width: 600px)
+{
+    .navbar ul li
+    {
+        width:40%;
+    }
+
+    .col-1 {
+        width: 8.33%;
+    }
+
+    .col-2 {
+        width: 16.66%;
+    }
+
+    .col-3 {
+        width: 25%;
+    }
+
+    .col-4 {
+        width: 33.33%;
+    }
+
+    .col-5 {
+        width: 41.66%;
+    }
+
+    .col-6 {
+        width: 50%;
+    }
+
+    .col-7 {
+        width: 58.33%;
+    }
+
+    .col-8 {
+        width: 66.66%;
+    }
+
+    .col-9 {
+        width: 75%;
+    }
+
+    .col-10 {
+        width: 83.33%;
+    }
+
+    .col-11 {
+        width: 91.66%;
+    }
+
+    .col-12 {
+        width: 100%;
+    }
+
+    [class*="col-"] {
+        float: left;
+        padding: 15px;
+    }
+
+    .menu 
+    {
+        height: 50px;
+    }
+
+    .menu h3 
+    {
+        text-align: right;
+        margin: 0;
+        padding: 0;
+    }
+
+    .menu input 
+    {
+        width: 100%;
+        margin: 0;
+        height: 50%;
+    }
+
+    .submit input 
+    {
+        width: 10%;
+    }
+
+    .submit input:hover 
+    {
+        border: 2px solid #a97b68;
+    }
+    
+    .form 
+    {
+        margin: 12% auto;
+    }
+
+    .form input 
+    {
+        margin: 0;
+        padding-left: 5;
+    }
+
+    .left 
+    {
+        text-align: left;
+    }
+
+}
